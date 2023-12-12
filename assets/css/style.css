@@ -1,0 +1,116 @@
+/* Resetando configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configuração do corpo do site */
+body {
+    background-image: url(../imagens/space-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container do formulário */
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 180px auto 0 auto;
+    border-radius: 8px; 
+    border: 1px solid black;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px black;
+}
+
+/* Titulo do formulário */
+#container h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+/* Configuração dos grupos de inputs e labels */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração os inputs */
+.input-group input {
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Configurando os labels */
+.input-group label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+/* Configurando os selects */
+.input-group select {
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Botão que faz a conversão */
+#convert-btn {
+    padding: 10px;
+    width: 30%;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background: rgb(255, 1, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Transição do botão */
+#convert-btn:hover {
+    background-color: green;
+    color: white;
+    transition: 1.5s;
+}
+
+.output-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.output-group input {
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: lightgray;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+
+/* mensagem da conversão */
+#message {
+    margin-top: 10px;
+    text-align: center;
+    color: green;
+    font-size: 14px;
+}
