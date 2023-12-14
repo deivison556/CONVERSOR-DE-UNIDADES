@@ -11,6 +11,8 @@ body {
     background-image: url(../imagens/space-background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* Container do formulário */
@@ -21,7 +23,7 @@ body {
     background-color: white;
     width: 400px;
     height: 500px;
-    margin: 180px auto 0 auto;
+    margin: 150px auto 0 auto;
     border-radius: 8px; 
     border: 1px solid black;
     padding: 10px 20px;
@@ -104,7 +106,6 @@ body {
     border: none;
     margin-top: 5px;
     border-radius: 5px;
-    
 }
 
 /* mensagem da conversão */
@@ -113,4 +114,61 @@ body {
     text-align: center;
     color: green;
     font-size: 14px;
+}
+
+/* Responsivo */
+/* Telas de 834px */
+@media screen and (max-width:834px) {
+/* Container do formulário */
+#container {
+    margin: 200px auto 0 auto;
+}
+}
+
+/* Telas de 428px */
+@media screen and (max-width:428px) {
+/* Container do formulário */
+#container {
+    margin: 150px auto 0 auto;
+}
+}
+
+/* Telas de 390px */
+@media screen and (max-width: 390px) {
+/* Container do formulário */
+#container {
+    width: 350px;
+    height: 500px;
+    margin: 100px auto 0 auto;
+}
+
+/* Titulo do formulário */
+#container h1 {
+    font-size: 22px;
+}
+
+/* Configuração os inputs */
+.input-group input {
+    font-size: 16px;
+}
+
+/* Configurando os labels */
+.input-group label {
+    font-size: 18px;
+}
+
+/* Configurando os selects */
+.input-group select {
+    font-size: 16px;
+}
+
+/* Botão que faz a conversão */
+#convert-btn {
+    width: 35%;
+}
+}
+
+/* Telas de 360px */
+@media screen and (max-width: 360px) {
+
 }
