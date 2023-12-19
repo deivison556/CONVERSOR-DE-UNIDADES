@@ -11,8 +11,6 @@ body {
     background-image: url(../imagens/space-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
 }
 
 /* Container do formulário */
@@ -170,5 +168,80 @@ body {
 
 /* Telas de 360px */
 @media screen and (max-width: 360px) {
+/* Container do formulário */
+#container {
+    width: 320px;
+    height: 490px;
+    margin: 100px auto 0 auto;
+}
 
+/* Titulo do formulário */
+#container h1 {
+    font-size: 20px;
+}
+
+/* Configuração os inputs */
+.input-group input {
+    font-size: 16px;
+}
+
+/* Configurando os labels */
+.input-group label {
+    font-size: 18px;
+}
+
+/* Configurando os selects */
+.input-group select {
+    font-size: 16px;
+}
+
+/* Botão que faz a conversão */
+#convert-btn {
+    width: 35%;
+}
+
+/* mensagem da conversão */
+#message {
+    font-size: 12px;
+}
+}
+
+/* Telas de 320px */
+@media screen and (max-width: 320px) {
+/* Container do formulário */
+#container {
+    width: 280px;
+    height: 490px;
+    margin: 50px auto 0 auto;
+}
+
+/* Titulo do formulário */
+#container h1 {
+    font-size: 18px;
+}
+
+/* Configuração os inputs */
+.input-group input {
+    font-size: 14px;
+}
+
+/* Configurando os labels */
+.input-group label {
+    font-size: 16px;
+}
+
+/* Configurando os selects */
+.input-group select {
+    font-size: 14px;
+}
+
+/* Botão que faz a conversão */
+#convert-btn {
+    width: 45%;
+}
+
+/* mensagem da conversão */
+#message {
+    font-size: 12px;
+}
 }
