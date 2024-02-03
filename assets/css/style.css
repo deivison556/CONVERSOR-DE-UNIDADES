@@ -23,7 +23,7 @@ body {
     background-color: white;
     width: 400px;
     height: 500px;
-    margin: 150px auto 0 auto;
+    margin: 200px auto 0 auto;
     border-radius: 8px; 
     border: 1px solid black;
     padding: 10px 20px;
@@ -117,6 +117,14 @@ body {
 }
 
 /* Responsivo */
+/* Telas de 1440px */
+@media screen and (max-width:1440px) {
+/* Container do formulário */
+#container {
+    margin-top: 140px;
+}
+}
+
 /* Telas de 834px */
 @media screen and (max-width:834px) {
 /* Container do formulário */
@@ -210,14 +218,11 @@ body {
 
 /* Telas de 320px */
 @media screen and (max-width: 320px) {
-body {
-    height: 100%;
-}
 /* Container do formulário */
 #container {
     width: 280px;
     height: 480px;
-    margin: 10px auto 0 auto;
+    margin-top: 50px;
 }
 
 /* Titulo do formulário */
